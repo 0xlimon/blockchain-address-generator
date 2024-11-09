@@ -1,0 +1,22 @@
+{
+    "name": "blockchain-address-generator",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Blockchain address generator for multiple networks",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@cosmjs/amino": "^0.32.2",
+        "@cosmjs/stargate": "^0.32.4",
+        "@solana/web3.js": "^1.87.6",
+        "chalk": "^5.3.0",
+        "ethers": "^6.11.1",
+        "fs-extra": "^11.2.0",
+        "inquirer": "^9.2.15"
+    }
+}
